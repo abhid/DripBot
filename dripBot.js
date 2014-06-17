@@ -948,7 +948,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 			temp = temp * 50 + 100;
 			clicksLeft.set(clicksLeft.obj - 1);
 		}
-		return Math.floor(temp);
+		return 20;
 	}
 
 	var getNewClicksTillBreak = function() {
