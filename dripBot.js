@@ -942,7 +942,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 	var getNewClickTimeout = function() {
 		var temp = rc4Rand.getRandomNumber();
 		if(clicksLeft.obj < 1) {
-			temp = 1 * MINUTE;// + 7 * MINUTE;
+			temp = 0.15 * MINUTE;// + 7 * MINUTE;
 			getNewClicksTillBreak();
 		} else {
 			temp = temp * 50;
