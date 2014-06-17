@@ -593,7 +593,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 				});
 			}
 		});
-		return powerupsAndUpgrades;
+		return powerupsAndUpgrades.slice(0, -1);
 	}
 
 	var sortOTBList = function(otbList) {
